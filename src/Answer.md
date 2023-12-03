@@ -1,0 +1,3 @@
+A pure component is more beneficial and snappy as it re-renders only when a change iis detected whereas a simple componenet will re-render everytime it changes 
+For example :-
+In this app if we use toggle in PureComponent.jsx, nothing gets re-rendered unless there is an increment i value But in the SimpleComponent.jsx things get re-rendered even when toggle button is used whichh means no change in state but re-rendering occurs
